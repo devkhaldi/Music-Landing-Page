@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  --purple-1: #370f5a;
+  --purple-2: #430877;
+  --purple-3: #5a00aa;
+  --btn-primary: #9cf0e1;
+}
+
+body {
+  background: var(--purple-2);
+  color: white;
+}
