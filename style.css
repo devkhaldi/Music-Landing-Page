@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -9,6 +11,85 @@
 }
 
 body {
-  background: var(--purple-2);
+  background: #ddd;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Navbar */
+nav {
+  width: 100%;
+  height: 4.5rem;
+  background: var(--purple-1);
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+}
+
+nav .nav-items {
+  list-style: none;
+  display: flex;
+  margin-left: auto;
+}
+nav .nav-item {
+  padding: 0.2rem 1.5rem;
+}
+
+nav .nav-items .nav-item a {
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
   color: white;
+  opacity: 0.7;
+}
+nav .nav-items .nav-item a:hover {
+  text-decoration: underline;
+}
+
+nav .join-now-btn {
+  padding: 0.65rem 1.5rem;
+  text-decoration: none;
+  color: black;
+  background: var(--btn-primary);
+  border-radius: 2rem;
+  font-weight: 600;
+}
+
+nav .menu-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 2rem;
+  height: 2rem;
+  background: transparent;
+  margin-left: 1rem;
+  cursor: pointer;
+  border: none;
+  display: none;
+}
+nav .menu-icon span {
+  display: block;
+  background: white;
+  height: 2px;
+  width: 100%;
+}
+
+nav .mobile-nav-items {
+  display: none;
+}
+
+/* Navbar for small devices */
+
+@media (max-width: 1000px) {
+  nav {
+    height: 3.5rem;
+  }
+  nav .nav-items {
+    display: none !important;
+  }
+  nav .menu-icon {
+    display: flex;
+  }
+  nav .join-now-btn {
+    margin-left: auto;
+  }
 }
