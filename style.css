@@ -31,17 +31,17 @@ nav .nav-items {
   margin-left: auto;
 }
 nav .nav-item {
-  padding: 0.2rem 1.5rem;
+  padding: 0rem 1.5rem;
 }
 
-nav .nav-items .nav-item a {
+nav .nav-item a {
   font-size: 1rem;
   font-weight: 600;
   text-decoration: none;
   color: white;
   opacity: 0.7;
 }
-nav .nav-items .nav-item a:hover {
+nav .nav-item a:hover {
   text-decoration: underline;
 }
 
@@ -74,7 +74,25 @@ nav .menu-icon span {
 }
 
 nav .mobile-nav-items {
+  position: absolute;
+  top: 3.5rem;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background: var(--purple-1);
+}
+
+nav .mobile-nav-items .nav-item {
+  width: 100%;
+  height: 4rem;
+  padding: 1rem auto;
+  align-items: center;
+  justify-content: center;
   display: none;
+}
+nav .mobile-nav-items .nav-item a {
+  margin: auto;
 }
 
 /* Navbar for small devices */
