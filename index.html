@@ -10,7 +10,7 @@
   </head>
   <body>
     <!-- NAVBAR -->
-    <nav>
+    <nav class="nav">
       <img src="./images/logo-soundtrap.svg " alt="logo" />
 
       <!-- prettier-ignore -->
@@ -23,15 +23,7 @@
         <hr class="nav-divider">
         <li class="nav-item"><a href="#">Log in</a></li>
       </ul>
-      <!-- prettier-ignore -->
-      <ul class="mobile-nav-items">
-        <li class="nav-item"><a href="#">Music Makers</a></li>
-        <li class="nav-item"><a href="#">Storytellers</a></li>
-        <li class="nav-item"><a href="#">Education</a></li>
-        <li class="nav-item"><a href="#">Collaborate</a></li>
-        <li class="nav-item"><a href="#">Pricing</a></li>
-        <li class="nav-item"><a href="#">Log in</a></li>
-      </ul>
+
       <a href="#" class="join-now-btn">Join Now</a>
       <button class="menu-icon">
         <span class="line"></span>
@@ -39,13 +31,27 @@
         <span class="line"></span>
       </button>
     </nav>
+    <!-- prettier-ignore -->
+    <ul class="mobile-nav-items hidden-mobile-nav">
+        <li class="nav-item"><a href="#">Music Makers</a></li>
+        <li class="nav-item"><a href="#">Storytellers</a></li>
+        <li class="nav-item"><a href="#">Education</a></li>
+        <li class="nav-item"><a href="#">Collaborate</a></li>
+        <li class="nav-item"><a href="#">Pricing</a></li>
+        <li class="nav-item"><a href="#">Log in</a></li>
+      </ul>
 
     <!-- SECTION 1 -->
-    <section>
+    <section class="make-music">
       <div class="section-content">
-        <h1>Make music together. online.</h1>
+        <h1>
+          Make music <br />
+          together. Online.
+        </h1>
         <p>Your everywhere studio by Spotify</p>
-        <a href="join-now-btn">Join Now</a>
+        <div class="btn-container">
+          <a href="#" class="join-now-btn hidden-btn">Join Now</a>
+        </div>
       </div>
     </section>
     <!-- SECTION 2 -->
@@ -248,4 +254,6 @@
       </div>
     </footer>
   </body>
+
+  <script src="./script.js"></script>
 </html>
