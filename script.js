@@ -1,5 +1,5 @@
 const navbar = document.querySelector("nav")
-const joinNowBtn = document.querySelector(".make-music a")
+const joinNowBtn = document.querySelector(".section-1 a")
 const navbarBtn = document.querySelector("nav .join-now-btn")
 
 window.onscroll = () => {
@@ -17,7 +17,6 @@ window.onscroll = () => {
 const mobileMenu = document.querySelector(".mobile-nav-items")
 const menuIcon = document.querySelector(".menu-icon")
 menuIcon.onclick = () => {
-  if (!mobileMenu.classList.contains("hidden-mobile-nav"))
-    navbar.classList.add("nav-scrolling")
+  if (window.scrollY === 0) navbar.classList.toggle("nav-scrolling")
   mobileMenu.classList.toggle("hidden-mobile-nav")
 }

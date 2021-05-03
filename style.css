@@ -60,6 +60,7 @@ nav .join-now-btn {
   background: var(--btn-primary);
   border-radius: 2rem;
   font-weight: 600;
+  margin-right: 2rem;
 }
 
 nav .hidden-btn {
@@ -78,6 +79,8 @@ nav .menu-icon {
   border: none;
   display: none;
   z-index: 11;
+  position: absolute;
+  right: 1rem;
 }
 nav .menu-icon span {
   display: block;
@@ -94,8 +97,9 @@ nav .menu-icon span {
   flex-direction: column;
   width: 100%;
   background: var(--purple-1);
-  transition: all 1s;
+  transition: all 0.5s;
   z-index: 9;
+  padding-top: 2rem;
 }
 
 .mobile-nav-items .nav-item {
@@ -127,5 +131,11 @@ nav .menu-icon span {
   }
   nav .join-now-btn {
     margin-left: auto;
+  }
+}
+
+@media (min-width: 1000px) {
+  .mobile-nav-items {
+    display: none;
   }
 }
