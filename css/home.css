@@ -69,3 +69,27 @@
   object-position: bottom right;
   transform: translate(4%, -12%) scale(1.275);
 }
+
+.section-3 {
+  position: relative;
+  max-width: 100%;
+}
+
+.section-3 img {
+  width: 100%;
+}
+
+.section-3 .section-content {
+  width: 28rem;
+  position: absolute;
+  top: 14rem;
+  right: 3.5rem;
+  color: var(--purple-2);
+}
+
+.section-3 h1 {
+  font-size: 2.5rem;
+}
+.section-3 p {
+  font-size: 1.3rem;
+}
