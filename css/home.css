@@ -11,7 +11,7 @@
 .section-1 .section-content {
   position: absolute;
   top: 23vh;
-  margin: 0 10rem;
+  margin: 0 10.5rem;
   display: flex;
   flex-direction: column;
 }
@@ -22,16 +22,16 @@
   line-height: 3.5rem;
 }
 .section-1 p {
-  font-size: 1rem;
+  font-size: 1.1rem;
   margin: 1.2rem 0;
   font-weight: 600;
   color: #8ff3c1;
 }
 .section-1 .btn-container {
-  margin: 1.8rem 0;
+  margin: 2rem 0;
 }
 .section-1 a {
-  padding: 0.8rem 2rem;
+  padding: 0.8rem 1.5rem;
   color: black;
   text-decoration: none;
   font-weight: 600;
