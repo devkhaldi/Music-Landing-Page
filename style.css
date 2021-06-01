@@ -183,7 +183,7 @@ footer {
   margin-top: -1rem;
   background: #300b51;
   color: white;
-  padding: 3.5rem 4.3rem;
+  padding: 3.8rem 4.9rem;
   padding-bottom: 5rem;
   display: flex;
   flex-direction: column;
@@ -205,7 +205,9 @@ footer .footer-logo img {
 footer .footer-links {
   flex: 4;
   display: flex;
+  font-size: 0.96rem;
 }
+
 footer .footer-column {
   display: flex;
   flex: 1;
@@ -218,11 +220,12 @@ footer .footer-link {
 
 .footer-social {
   flex: 1;
-  padding-left: 3rem;
+  padding-left: 8rem;
 }
 .footer-social-link {
   display: flex;
   padding: 0.3rem 0;
+  font-size: 0.95rem;
 }
 .footer-social-link img {
   margin-right: 0.5rem;
@@ -231,30 +234,31 @@ footer .footer-link {
 .footer-languages {
   display: flex;
   padding-left: 6rem;
-  font-size: 0.85rem;
+  font-size: 0.8rem;
 }
 .footer-languages span.footer-link {
   font-weight: 600;
-  margin-right: 3rem;
+  margin-right: 2.3rem;
 }
 .footer-languages a.footer-link {
-  margin-right: 3rem;
+  margin-right: 2.3rem;
 }
 
 .footer-bottom {
-  margin-top: 1rem;
+  margin-top: 0.8rem;
   padding-left: 6rem;
   position: relative;
 }
 .footer-bottom .footer-link {
-  margin-right: 3rem;
-  font-size: 0.9rem;
+  margin-right: 2.3rem;
+  font-size: 0.8rem;
 }
 .footer-bottom span.footer-copyright {
   position: absolute;
   right: 0;
   opacity: 0.5;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
+  font-weight: 600;
 }
 
 footer a {
