@@ -53,17 +53,20 @@
   position: absolute;
   top: 44%;
   max-width: 40vw;
-  left: 10vw;
+  left: 12vw;
   z-index: 1;
   text-align: left;
 }
 
 .section-2 h1 {
-  font-size: 2.2rem;
-  margin-bottom: 1.1rem;
+  font-size: 2.25rem;
+  margin-bottom: 1rem;
+  letter-spacing: -2px;
 }
 .section-2 p {
-  font-size: 1.4rem;
+  font-size: 1.35rem;
+  letter-spacing: -1px;
+  max-width: 30rem;
 }
 
 .section-2 img {
