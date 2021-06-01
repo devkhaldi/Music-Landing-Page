@@ -55,6 +55,22 @@ nav {
   text-decoration: underline;
 }
 
+.nav-items .active {
+  position: relative;
+}
+.nav-items .active::after {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 1.6rem;
+  width: 75%;
+  height: 2px;
+  background: white;
+}
+.nav-items .active a {
+  opacity: 1 !important;
+}
+
 nav .join-now-btn {
   padding: 0.65rem 1.5rem;
   text-decoration: none;
