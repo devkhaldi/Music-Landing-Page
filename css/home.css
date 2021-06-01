@@ -119,22 +119,30 @@
 .features .feature {
   display: flex;
   width: 50%;
-}
-
-.features .feature {
   padding: 3.5rem 2.5rem;
   color: white;
 }
-.features .img-container img {
-  transform: translateY(1rem);
+
+.features .img-container {
+  display: flex;
+  justify-content: center;
 }
 
 .features .text-container {
-  padding-left: 2.5rem;
+  padding-left: 3rem;
+  padding-top: 0.2rem;
 }
 .features .text-container h3 {
   margin-bottom: 1rem;
   font-size: 1.5rem;
+}
+.features .text-container p {
+  font-weight: 600;
+  font-size: 0.85rem;
+  margin-bottom: 1rem;
+}
+.features .text-container span {
+  font-size: 0.8rem;
 }
 
 .features .feature:nth-child(1),
