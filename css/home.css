@@ -10,14 +10,16 @@
 
 .section-1 .section-content {
   position: absolute;
-  top: 25vh;
-  margin: 0 12rem;
+  top: 23vh;
+  margin: 0 10rem;
   display: flex;
   flex-direction: column;
 }
 
 .section-1 h1 {
-  font-size: 3rem;
+  letter-spacing: -0.5px;
+  font-size: 2.9rem;
+  line-height: 3.5rem;
 }
 .section-1 p {
   font-size: 1rem;
