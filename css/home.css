@@ -165,7 +165,7 @@
   top: 36%;
   left: auto;
   left: 26%;
-  z-index: 11;
+  z-index: 1;
   max-width: 420px;
   padding: 40px;
   bottom: 80px;
@@ -178,4 +178,65 @@
 }
 .section-4 p {
   font-size: 1.28rem;
+}
+/* SECTION 5 */
+
+.section-5 {
+  background-color: #efefef;
+  display: flex;
+  height: 87vh;
+}
+.section-5 .section-img {
+  max-width: 30rem;
+}
+.section-5 .section-img > img {
+  width: 72%;
+  transform: translate(7.9rem, -11.7rem);
+}
+.section-5 .section-content {
+  padding: 5.5rem 5rem;
+}
+
+.section-5 h1 {
+  color: #3e1165;
+  font-weight: 800;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  margin-bottom: 1rem;
+}
+.section-5 p {
+  max-width: 25rem;
+  color: #4f0590;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+.section-5 .section-content a img {
+  width: 11rem;
+  margin-top: 2rem;
+}
+
+.section-5 .android-download-container {
+  margin-top: 2rem;
+  display: flex;
+}
+.section-5 .android-download-container > .img-container {
+  width: 2rem;
+}
+.section-5 .android-download-container .img-container > img {
+  height: 45%;
+  margin-top: 0.3rem;
+}
+.section-5 .android-download-container .text-container {
+  padding-left: 0.6rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #4f0590;
+}
+.section-5 .android-download-container .text-container a {
+  font-weight: 800;
+}
+
+.section-5 .android-download-container .text-container a:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
