@@ -79,6 +79,7 @@ nav .join-now-btn {
   background: var(--btn-primary);
   border-radius: 2rem;
   font-weight: 600;
+  margin-right: 2rem;
 }
 
 nav .hidden-btn {
@@ -92,7 +93,6 @@ nav .menu-icon {
   width: 2rem;
   height: 2rem;
   background: transparent;
-  margin-left: 1rem;
   cursor: pointer;
   border: none;
   display: none;
@@ -247,7 +247,6 @@ footer .footer-link {
 .footer-languages a.footer-link {
   margin-right: 2.3rem;
 }
-
 .footer-bottom {
   margin-top: 0.8rem;
   padding-left: 6rem;
