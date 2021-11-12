@@ -287,3 +287,23 @@
     line-height: 2.3rem;
   }
 }
+
+@media (max-width: 576px) {
+  .section-1 {
+    height: 110vh;
+    background-position-x: -35rem;
+    background-position-y: 0rem;
+  }
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 992px) {
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (min-width: 1400px) {
+}
