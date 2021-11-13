@@ -290,9 +290,12 @@
 
 @media (max-width: 576px) {
   .section-1 {
-    height: 110vh;
-    background-position-x: -35rem;
-    background-position-y: 0rem;
+    background: url("../images/hero-v4-1080x1920.webp");
+
+    background-size: cover;
+  }
+  .section-1 .section-content {
+    top: 16.5vh;
   }
 }
 
