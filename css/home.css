@@ -291,11 +291,31 @@
 @media (max-width: 576px) {
   .section-1 {
     background: url("../images/hero-v4-1080x1920.webp");
-
+    background-position-y: -4.8rem;
     background-size: cover;
   }
   .section-1 .section-content {
     top: 16.5vh;
+  }
+  .section-2 {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+  }
+  .section-2 .section-content {
+    max-width: 100%;
+    position: unset;
+    padding: 4rem 2rem;
+  }
+  .section-2 p {
+    font-size: 1rem;
+  }
+  .section-2 img {
+    margin: 0 auto;
+    object-position: initial;
+    transform: translate(-4rem, -3rem) scale(2.4);
   }
 }
 
