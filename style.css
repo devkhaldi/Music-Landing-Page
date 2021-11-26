@@ -3,7 +3,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
   --purple-1: #3e1165;
   --purple-2: #430877;
   --purple-3: #5a00aa;
@@ -80,7 +79,6 @@ nav .join-now-btn {
   background: var(--btn-primary);
   border-radius: 2rem;
   font-weight: 600;
-  margin-right: 2rem;
 }
 
 nav .hidden-btn {
@@ -170,6 +168,12 @@ nav .menu-icon span {
   }
   nav .join-now-btn {
     margin-left: auto;
+  }
+  nav .join-now-btn {
+    font-size: 0.95rem;
+    padding: 0.6rem 1.4rem;
+    border-radius: 2rem;
+    margin-right: 3rem;
   }
 }
 
