@@ -206,7 +206,6 @@
 .section-5 {
   background-color: #efefef;
   display: flex;
-  height: 87vh;
 }
 .section-5 .section-img {
   max-width: 30rem;
@@ -521,12 +520,13 @@
   }
   .section-4 .text-container {
     position: absolute;
-    top: 51%;
-    left: auto;
+    bottom: 10px;
+    padding: 40px;
+    width: 100%;
+    left: 50%;
+    max-width: 420px;
+    transform: translate(-50%);
     z-index: 1;
-    max-width: 800px;
-    padding: 70px;
-    bottom: 80px;
     text-shadow: 0 2px 2px #333;
   }
   .section-4 .text-container h1 {
@@ -537,7 +537,7 @@
   }
   /* SECTION 5 */
   .section-5 {
-    height: 300rem;
+    padding-bottom: 5rem;
     flex-direction: column;
   }
   .section-5 .section-img {
@@ -546,21 +546,23 @@
     text-align: center;
   }
   .section-5 .section-img > img {
-    max-width: 30rem;
-    transform: translate(0, -12rem);
+    max-width: 22rem;
+    transform: translate(0, -14rem);
   }
   .section-5 .section-content {
-    padding: 5.5rem 3rem;
+    display: flex;
+    justify-content: center;
   }
 
   .section-5 .text-content {
+    max-width: 25rem;
     transform: translateY(-15rem);
   }
 
   .section-5 h1 {
     color: #3e1165;
     font-weight: 800;
-    font-size: 2rem;
+    font-size: 1.5rem;
     line-height: 2.5rem;
     margin-bottom: 1rem;
   }
