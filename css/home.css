@@ -314,24 +314,25 @@
   }
   /* SECTION 2 */
   .section-2 {
-    height: 100vh;
+    height: 140vh;
     display: flex;
     flex-direction: column;
     text-align: center;
     position: relative;
   }
   .section-2 .section-content {
-    max-width: 100%;
+    max-width: unset;
     position: unset;
     padding: 4rem 2rem;
   }
   .section-2 p {
-    font-size: 1rem;
+    font-size: 1.25rem;
+    max-width: unset;
   }
   .section-2 img {
     margin: 0 auto;
     object-position: initial;
-    transform: translate(-4rem, -3rem) scale(2.4);
+    transform: translate(-4rem, 0rem) scale(2.4);
   }
   /* SECTION 3 */
   .section-3 {
