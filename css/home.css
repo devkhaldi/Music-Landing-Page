@@ -103,7 +103,7 @@
   color: #4f0590;
   font-size: 2.5rem;
   line-height: 3rem;
-  max-width: 25rem;
+  width: 25rem;
 }
 .section-3 p {
   margin-top: 1rem;
@@ -350,9 +350,14 @@
   .section-3 .section-content {
     position: unset;
     padding: 4rem 2.4rem;
+    width: unset;
+  }
+  .section-3 .section-content h1 {
+    width: unset;
   }
   .section-3 .section-content p {
     font-size: 1em;
+    width: unset;
   }
   /* FEATURES */
   .features .feature {
@@ -391,19 +396,21 @@
   }
   .section-4 .text-container {
     position: absolute;
-    top: 51%;
-    left: auto;
+    bottom: 30%;
+    top: unset;
+    left: 50%;
+    transform: translateX(-50%);
     z-index: 1;
-    max-width: 800px;
-    padding: 70px;
-    bottom: 80px;
+    max-width: 420px;
+    width: 100%;
+    padding: 20px;
     text-shadow: 0 2px 2px #333;
   }
   .section-4 .text-container h1 {
     line-height: 2.6rem;
   }
   .section-4 .text-container p {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   /* SECTION 5 */
   .section-5 {
