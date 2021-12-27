@@ -282,10 +282,6 @@
     background: var(--purple-2);
   }
 }
-
-@media (max-width: 1200px) {
-}
-
 @media (max-width: 960px) {
   /* SECTION 1 */
   .section-1 .section-content {

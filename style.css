@@ -9,8 +9,35 @@
   --btn-primary: #9cf0e1;
 }
 
+/* import matter font */
+@font-face {
+  font-family: Matter;
+  src: url(./fonts/matter/Matter-Light.ttf);
+  font-weight: 200;
+}
+@font-face {
+  font-family: Matter;
+  src: url(./fonts/matter/Matter-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: Matter;
+  src: url(./fonts/matter/Matter-Medium.ttf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: Matter;
+  src: url(./fonts/matter/Matter-SemiBold.ttf);
+  font-weight: 600;
+}
+@font-face {
+  font-family: Matter;
+  src: url(./fonts/matter/Matter-Bold.ttf);
+  font-weight: 700;
+}
+
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: Matter, "Open Sans", sans-serif;
   font-variant-ligatures: no-contextual;
   overflow-x: hidden;
 }
