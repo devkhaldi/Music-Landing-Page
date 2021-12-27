@@ -91,10 +91,10 @@
 }
 
 .section-3 .section-content {
-  width: 28rem;
+  max-width: 28rem;
   position: absolute;
-  top: 14.5rem;
-  right: 3.5rem;
+  top: 35%;
+  left: 63%;
   color: var(--purple-2);
 }
 
