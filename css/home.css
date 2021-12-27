@@ -304,6 +304,17 @@
   .section-1 .section-content {
     top: 16.5vh;
   }
+
+  /* SECTION 3 */
+  .section-3 .section-content {
+    position: absolute;
+    width: 24rem;
+    top: 20%;
+    right: unset;
+    left: 80%;
+    transform: translate(-50%);
+    color: var(--purple-2);
+  }
 }
 @media (max-width: 768px) {
   /* SECTION 1 */
