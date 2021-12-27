@@ -396,7 +396,7 @@
   }
   .section-4 .text-container {
     position: absolute;
-    bottom: 30%;
+    bottom: 15%;
     top: unset;
     left: 50%;
     transform: translateX(-50%);
@@ -424,15 +424,17 @@
   }
 
   .section-5 .section-img > img {
-    width: 25rem;
-    transform: translate(4rem, -12rem);
+    width: 20rem;
+    margin: 0 auto;
+    transform: translate(25vw, -12rem);
   }
   .section-5 .section-content {
-    padding: 5.5rem 3rem;
+    width: 25rem;
+    padding: 5.5rem 0rem;
   }
 
   .section-5 .text-content {
-    transform: translateY(-15rem);
+    transform: translateY(-18rem) translateX(25vw);
   }
 
   .section-5 h1 {
